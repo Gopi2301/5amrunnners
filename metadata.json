@@ -1,0 +1,8 @@
+{
+  "name": "Kolkata Runners Club",
+  "description": "Community run club app with monthly distance & pace leaderboards, Strava run sync, and goal tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

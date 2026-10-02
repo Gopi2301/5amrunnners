@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#141414"/>
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#FF9F1C" stroke-width="12" stroke-dasharray="8 8"/>
+  <!-- Stylized runner symbol -->
+  <g transform="translate(100, 80) scale(0.62)">
+    <!-- Runner head -->
+    <circle cx="340" cy="110" r="45" fill="#FFD600"/>
+    <!-- Runner torso -->
+    <path d="M 280 200 L 330 160 C 345 150 365 155 375 170 L 390 200 L 330 330 L 260 270 Z" fill="#FF9F1C"/>
+    <!-- Runner arm forward -->
+    <path d="M 360 180 L 430 210 L 480 180" fill="none" stroke="#FAF9F6" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Runner arm back -->
+    <path d="M 290 200 L 220 230 L 170 210" fill="none" stroke="#FAF9F6" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Runner leg forward (bent) -->
+    <path d="M 330 330 L 400 390 L 450 490" fill="none" stroke="#FF9F1C" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Runner leg back (kicking) -->
+    <path d="M 280 300 L 200 370 L 130 350" fill="none" stroke="#FFD600" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Speed streaks -->
+    <line x1="80" y1="260" x2="160" y2="260" stroke="#FF9F1C" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+    <line x1="50" y1="310" x2="140" y2="310" stroke="#FFD600" stroke-width="12" stroke-linecap="round" opacity="0.6"/>
+    <line x1="90" y1="360" x2="170" y2="360" stroke="#FF9F1C" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  <!-- Text KRC -->
+  <text x="256" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" fill="#FAF9F6" text-anchor="middle" letter-spacing="4">KOLKATA RUNNERS</text>
+</svg>
